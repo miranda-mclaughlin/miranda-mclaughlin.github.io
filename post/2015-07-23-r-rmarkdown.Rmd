@@ -1,0 +1,40 @@
+---
+title: "Interesting Python Tidbits"
+author: "Miranda McLaughlin"
+date: 2021-05-09
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+Most of our class has been using R as our main source of coding, but here's a little bit of Python we've recently learned!
+```{python}
+list1=[1,2,3,4]
+list1
+list2=['a','b','c','d']
+list2
+list3=list1+list2
+list3
+```
+
+
+
+We can also use Reticulate to combine Python and R and have them interact together!
+
+```{R}
+library(reticulate)
+hi<-"Hello"
+```
+
+```{python}
+hi="world"
+print(r.hi,hi)
+```
+
+```{R}
+cat(c(hi,py$hi))
+```
+
+While this python code is very remedial, I actually took computer science many years ago in high school and became quite good at the language (at the time!). I was able to make things like complete websites from scratch, Hangman games, Candy Crush games, and my own map of The Land of Oz!
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project 3</title>
+    <link>/</link>
+    <description>Recent content on Project 3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Python Tidbits</title>
+      <link>/post/2021/05/09/interesting-python-tidbits/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/09/interesting-python-tidbits/</guid>
+      <description>Most of our class has been using R as our main source of coding, but here’s a little bit of Python we’ve recently learned!
+list1=[1,2,3,4] list1 ## [1, 2, 3, 4] list2=[&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;] list2 ## [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] list3=list1+list2 list3 ## [1, 2, 3, 4, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] We can also use Reticulate to combine Python and R and have them interact together!
+library(reticulate) hi&amp;lt;-&amp;quot;Hello&amp;quot; hi=&amp;quot;world&amp;quot; print(r.hi,hi) ## Hello world cat(c(hi,py$hi)) ## Hello world While this python code is very remedial, I actually took computer science many years ago in high school and became quite good at the language (at the time!</description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>Worldwide Mental Health Statistics  Introduction The two datasets I’m joining together are from the same study, and contain informtaion on mental health statistics throughout the world from 1990-2017. The first dataset contains the country, the country’s code, the year, and the percentages of people with different types of mental and substance use disorders. The second dataset also contains the country, country’s code, and year, but differs in that the last variable is the total number of people with depression.</description>
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>/project/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>Data on Austin Coffee Shops  Introduction I found data that reports on the yelp ratings of all of the coffee shops in Austin. The data accounts for the name of the shop, the number of total yelp reviews it has, its overall rating (out of 5 stars), and things that may have factored into its rating such as the quality of the coffee, the price, and the location, to name a few.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description> Check out some of my coding projects below:
+ Wrangling &amp;amp; Exploratory Data Analysis
+ Modeling, Inference, Prediction
+  -- </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>

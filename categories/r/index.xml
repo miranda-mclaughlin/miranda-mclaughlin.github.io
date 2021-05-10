@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Project 3</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Project 3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Python Tidbits</title>
+      <link>/post/2021/05/09/interesting-python-tidbits/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/09/interesting-python-tidbits/</guid>
+      <description>Most of our class has been using R as our main source of coding, but here’s a little bit of Python we’ve recently learned!
+list1=[1,2,3,4] list1 ## [1, 2, 3, 4] list2=[&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;] list2 ## [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] list3=list1+list2 list3 ## [1, 2, 3, 4, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;] We can also use Reticulate to combine Python and R and have them interact together!
+library(reticulate) hi&amp;lt;-&amp;quot;Hello&amp;quot; hi=&amp;quot;world&amp;quot; print(r.hi,hi) ## Hello world cat(c(hi,py$hi)) ## Hello world While this python code is very remedial, I actually took computer science many years ago in high school and became quite good at the language (at the time!</description>
+    </item>
+    
+  </channel>
+</rss>
